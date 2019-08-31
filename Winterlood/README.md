@@ -3,7 +3,7 @@
 
 게임 이름
 ---
-Colorless World
+Give Me The Color
 
 ![](./img/GiveMeTheColor.png)
 
