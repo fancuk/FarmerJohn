@@ -19,6 +19,8 @@ Give Me The Color
 
 ![](./img/start2.png)
 
+**Final**
+![](./img/final.png)
 
 게임 장르
 ---
