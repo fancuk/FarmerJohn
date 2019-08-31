@@ -7,6 +7,9 @@ Give Me The Color
 
 ![](./img/GiveMeTheColor.png)
 
+메인화면
+![](./img/main.png)
+
 
 게임 장르
 ---
