@@ -7,9 +7,17 @@ Give Me The Color
 
 ![](./img/GiveMeTheColor.png)
 
-메인화면
+**메인화면**
 
 ![](./img/main.png)
+
+**Loading View**
+
+![](./img/start1.png)
+
+**Tutorials**
+
+![](./img/start2.png)
 
 
 게임 장르
