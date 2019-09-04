@@ -7,9 +7,17 @@
 ## 3. 플레이 방식
 아무 색도 칠해져 있지 않고 선만 그려져 있는 픽셀아트 frame<br><br>
 유저가 게임을 한 스테이지 클리어 할 때마다 해당 색상이 칠해지며 그림을 완성해 나감<br><br>
-- idea 1. Swampy 형식 미니게임<br>
+Ex)
+![pixel1](https://user-images.githubusercontent.com/54203881/64233361-f6593f00-cf2e-11e9-90c9-ad1d591da1fb.png)<br><br>
+도안은 간단한 오브젝트일수도 있지만 사람들이 많이 선호하는 다음과 같은 픽셀아트 감성을 담은 도안이 더 좋을듯<br><br>
+Ex)
+![40e67b523c561b4a52c763413683ab99](https://user-images.githubusercontent.com/54203881/64233477-3f10f800-cf2f-11e9-8c20-daeef609f22c.jpg)
+
+- idea 1. Swampy 형식 미니게임<br><br>
+![22](https://user-images.githubusercontent.com/54203881/64233745-d8d8a500-cf2f-11e9-92e5-8b1a2fbf7f09.jpg)<br><br>
 터치 슬라이드로 긿을 뚫어주어 해당 색상의 물이 맨 밑까지 도달하면 픽셀아트가 있는 scene에 해당 색이 채워짐<br><br>
-- idea 2. 슈퍼마리오 형식 미니게임<br>
+- idea 2. 슈퍼마리오 형식 미니게임<br><br>
+![KakaoTalk_20190903_173410714](https://user-images.githubusercontent.com/54203881/64233802-f86fcd80-cf2f-11e9-9123-b9ce62ebd888.jpg)<br>
 페인트 통을 들은 캐릭터가 시작점에서 출발해 장애물들을 피해 결승지점에 도달하면 픽셀아트가 있는 scene에 해당 색이 채워짐
 ## 4. 타겟층
 10 ~ 30대 여성
