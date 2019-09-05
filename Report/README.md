@@ -23,9 +23,9 @@ https://github.com/fancuk/UnityGameProjects/blob/master/Favian/%EB%AA%A8%EA%B8%B
 https://github.com/fancuk/UnityGameProjects/blob/master/wjddms97/FillingPixel.md
 
 ★ 차별점 추가
-1.	모든 픽셀에 컬러를 다 부여했을 때, 갤러리에 사진으로 각자 저장할 수 있는 기능 추가. 
-    ->	바탕화면이나, 카카오톡 프로필 사진 등으로 이용할 수 있음.
-    <br>
+1.	그림 픽셀에 색을 다 채웠을 때 갤러리에 사진으로 저장할 수 있는 기능 추가 
+    ->	바탕화면이나, 카카오톡 프로필 사진 등으로 이용할 수 있음
+2. 색을 다 채운 그림에 한하여 애니메이션 효과를 줌으로써 플레이 완료 후에 색다른 감상 포인트를 줌<br>
 ★ 구체적인 타겟층 도출    <br>
 1.	도트 그래픽 선호 층
 2.	비 전투 게임 선호 층
