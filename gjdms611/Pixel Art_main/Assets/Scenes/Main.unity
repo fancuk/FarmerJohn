@@ -130,8 +130,9 @@ GameObject:
   m_Component:
   - component: {fileID: 346679313}
   - component: {fileID: 346679312}
+  - component: {fileID: 346679314}
   m_Layer: 0
-  m_Name: "\uD589\uC131 4"
+  m_Name: planet3
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -195,11 +196,23 @@ Transform:
   m_GameObject: {fileID: 346679311}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 36.047424, y: -14.96615, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &346679314
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 346679311}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0a264d6c178a548b0de9046f5eeb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -247,13 +260,13 @@ Camera:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 0.5625
+    width: 1
     height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7
+  orthographic size: 5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -293,8 +306,9 @@ GameObject:
   m_Component:
   - component: {fileID: 567081988}
   - component: {fileID: 567081987}
+  - component: {fileID: 567081989}
   m_Layer: 0
-  m_Name: "\uD589\uC131 5"
+  m_Name: planet5
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -358,11 +372,23 @@ Transform:
   m_GameObject: {fileID: 567081986}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 7.965952, y: 11.77564, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &567081989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 567081986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0a264d6c178a548b0de9046f5eeb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &871458913
 GameObject:
   m_ObjectHideFlags: 0
@@ -373,13 +399,26 @@ GameObject:
   m_Component:
   - component: {fileID: 871458916}
   - component: {fileID: 871458915}
+  - component: {fileID: 871458914}
   m_Layer: 0
-  m_Name: "\uD589\uC131 2"
+  m_Name: planet1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!114 &871458914
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871458913}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0a264d6c178a548b0de9046f5eeb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!212 &871458915
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -438,7 +477,7 @@ Transform:
   m_GameObject: {fileID: 871458913}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0.17, y: 0.1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
@@ -453,8 +492,9 @@ GameObject:
   m_Component:
   - component: {fileID: 883277085}
   - component: {fileID: 883277084}
+  - component: {fileID: 883277086}
   m_Layer: 0
-  m_Name: "\uD589\uC131 3"
+  m_Name: planet4
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -518,11 +558,23 @@ Transform:
   m_GameObject: {fileID: 883277083}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 21.896133, y: -13.419105, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &883277086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 883277083}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0a264d6c178a548b0de9046f5eeb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1778672436
 GameObject:
   m_ObjectHideFlags: 0
@@ -533,8 +585,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1778672438}
   - component: {fileID: 1778672437}
+  - component: {fileID: 1778672439}
   m_Layer: 0
-  m_Name: "\uD589\uC131 1"
+  m_Name: planet2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -598,8 +651,20 @@ Transform:
   m_GameObject: {fileID: 1778672436}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 30.740688, y: 1.8303457, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.3, y: 0.3, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1778672439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1778672436}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ed0a264d6c178a548b0de9046f5eeb27, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

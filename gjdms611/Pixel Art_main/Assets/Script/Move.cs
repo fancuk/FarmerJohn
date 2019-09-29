@@ -4,12 +4,13 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    void move_object_circle(int num, Gameobject obj)
+    public void move_object_circle(int num)
     {
-        Vector3 tmp = obj.transform.position;
-        tmp.x = Mathf.Cos(-Time.time + num) * 10;
-        tmp.y = Mathf.Sin(-Time.time + num) * 10;
-        obj.transform.position = tmp;
+        Vector3 tmp = this.transform.position;
+ //       double r = (double)num / (double)10;
+        tmp.x = Mathf.Cos(-Time.time + num)*2;
+        tmp.y = Mathf.Sin(-Time.time + num)*2;
+        this.transform.position = tmp;
     }
     /*
     int num = 1;
