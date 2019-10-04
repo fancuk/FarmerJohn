@@ -4,31 +4,20 @@ using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    public void move_object_circle(int num)
-    {
-        Vector3 tmp = this.transform.position;
- //       double r = (double)num / (double)10;
-        tmp.x = Mathf.Cos(-Time.time + num)*2;
-        tmp.y = Mathf.Sin(-Time.time + num)*2;
-        this.transform.position = tmp;
-    }
-    /*
-    int num = 1;
-    // Start is called before the first frame update
+    public int scale = 330, x=550, y=1300;
     void Start()
     {
         
     }
 
     void Update() {
-        Vector3 tmp = this.transform.position;
-        tmp.x = Mathf.Cos(-Time.time + num) * 10;
-        tmp.y = Mathf.Sin(-Time.time + num) * 10;
-        this.transform.position = tmp;
-        //        double x = tmp.x, y = tmp.y;
 
-        //float xMove = Mathf.Cos(Time.time)/4; //x축으로 이동할 양
-        //float yMove = Mathf.Sin(Time.time)/4; //y축으로 이동할양
-        //this.transform.Translate(new Vector3(xMove, yMove, 0));  //이동
-    }*/
+    }
+    public void move_object_circle(int num)
+    {
+        Vector3 tmp = this.transform.position;
+        tmp.x = (float)Mathf.Cos(-Time.time + (float)6.2 / (float)5 * (float)num) * scale + (float)x;
+        tmp.y = (float)Mathf.Sin(-Time.time + (float)6.2 / (float)5 * (float)num) * scale + (float)y;
+        this.transform.position = tmp;
+    }
 }

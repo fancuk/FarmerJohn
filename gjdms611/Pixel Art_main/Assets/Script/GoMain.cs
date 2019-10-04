@@ -1,8 +1,8 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class Main : MonoBehaviour
+using UnityEngine.SceneManagement;
+public class GoMain : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -14,5 +14,9 @@ public class Main : MonoBehaviour
     void Update()
     {
         
+    }
+    public void Click()
+    {
+        SceneManager.LoadScene("Main");
     }
 }
