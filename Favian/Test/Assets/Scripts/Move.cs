@@ -1,52 +1,67 @@
-﻿using UnityStandardAssets.CrossPlatformInput;
+﻿using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class Move : MonoBehaviour
 {
-    // Start is called before the first frame update
-    private float startPosx;
-    private float startPosY;
-    private bool isBeingHeId = false;
+    GameObject[] gameObject;
+    private int arraysize;
+    private float desiredAngle = 0;
+    public Transform target;
+    public float speed;
 
-    private void OnMouseDown()
+    void Start()
     {
-        if (Input.GetMouseButtonDown(0))
+        arraysize = 4;
+        gameObject = new GameObject[arraysize];
+        for (int i = 0; i < 4; i++)
         {
-            Vector3 mousePos;
-            mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-            startPosx = mousePos.x - this.transform.localPosition.x;
-            startPosY = mousePos.y - this.transform.localPosition.y;
-            isBeingHeId = true;
+            gameObject[i] = transform.GetChild(i).gameObject;
         }
     }
-    private void OnMouseUp()
-    {
-        isBeingHeId = false;
-    }
-    private void isBeing()
-    {
-        if (isBeingHeId == true)
-        {
-            Vector3 mousePos;
-            mousePos = Input.mousePosition;
-            mousePos = Camera.main.ScreenToWorldPoint(mousePos);
-            this.gameObject.transform.localPosition
-                = new Vector3(mousePos.x - startPosx, mousePos.y - startPosY, 0);
-        }
-    }
-    // Update is called once per frame
+
     void Update()
     {
-        isBeing();
+
     }
     public void leftDown()
     {
-        transform.Translate(-3, 3, 0);
+        for (int i = 0; i < arraysize; i++)
+        {
+            desiredAngle -= 90;
+            if (desiredAngle > 360)
+            {
+                desiredAngle -= 360;
+            }
+            if (desiredAngle <= 0)
+            {
+                desiredAngle += 360;
+            }
+            Vector3 damin = new Vector3(0, 0, 90);
+            /*transform.localRotation =
+                Quaternion.Euler(new Vector3(0, 0, desiredAngle));*/
+            gameObject[i].transform.RotateAround(target.position, damin, speed);
+            Debug.Log(i + "는 " + desiredAngle + "도 돌았습니다.\n");
+        }
     }
     public void rightDown()
     {
-        transform.Translate(3, -3, 0);
+        for (int i = 0; i < arraysize; i++)
+        {
+            desiredAngle += 90;
+            if (desiredAngle > 360)
+            {
+                desiredAngle -= 360;
+            }
+            if (desiredAngle <= 0)
+            {
+                desiredAngle += 360;
+            }
+            Vector3 damin = new Vector3(0, 0, -90);
+            /*transform.localRotation =
+                Quaternion.Euler(new Vector3(0, 0, desiredAngle));*/
+            gameObject[i].transform.RotateAround(target.position, damin, speed);
+            Debug.Log(i + "는 " + desiredAngle + "도 돌았습니다.\n");
+        }
     }
-
 }

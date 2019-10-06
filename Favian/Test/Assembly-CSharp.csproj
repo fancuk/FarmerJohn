@@ -60,6 +60,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Drag.cs" />
     <Compile Include="Assets\Scripts\Move.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>F:/새 폴더/OneDrive/바탕 화면/스터디/Test/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

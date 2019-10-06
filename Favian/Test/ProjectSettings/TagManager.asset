@@ -3,7 +3,8 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - planet
   layers:
   - Default
   - TransparentFX
@@ -13,7 +14,7 @@ TagManager:
   - UI
   - 
   - 
-  - 
+  - BG
   - 
   - 
   - 
@@ -38,6 +39,12 @@ TagManager:
   - 
   - 
   m_SortingLayers:
+  - name: BG
+    uniqueID: 223417501
+    locked: 0
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: 
+    uniqueID: 1569112151
     locked: 0
