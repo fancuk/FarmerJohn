@@ -1,5 +1,4 @@
-﻿using UnityStandardAssets.CrossPlatformInput;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class Drag : MonoBehaviour
 {
