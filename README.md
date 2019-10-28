@@ -4,6 +4,29 @@
 
 ![](./img/indexScene.JPG)
 
+Character in Farmer John
+---
+
+![](./img/John.JPG)
+![](./img/Grace.JPG)
+![](./img/Bob.JPG)
+
+Animal in Farmer John
+---
+
+![](./img/Chicken.JPG)
+![](./img/Chick.JPG)
+![](./img/Cow.JPG)
+![](./img/Dog.JPG)
+
+Object in Farmer John
+---
+
+![](./img/JohnHouse.JPG)
+![](./img/ChickenHouse.JPG)
+![](./img/Trees.JPG)
+
+
 Date
 ---
 
